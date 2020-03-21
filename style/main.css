@@ -1,0 +1,26 @@
+* {
+  padding: 0px;
+  margin: 0px; }
+
+html {
+  @import url("https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap");
+  font-family: 'Baloo Da 2', cursive;
+  color: #fff;
+  font-size: 14px; }
+
+.header {
+  min-width: 100vh;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0, rgba(22, 22, 22, 0.7) 40%, #161616 100%), url("../img/head.jpg"); }
+
+.body {
+  min-height: 60vh;
+  background: black;
+  background: linear-gradient(0deg, rgba(22, 22, 22, 0.3) 0, rgba(22, 22, 22, 0.7) 45%, #161616 100%); }
+
+.footer {
+  min-height: 40vh;
+  background: black;
+  background: linear-gradient(180deg, rgba(22, 22, 22, 0.3) 0, rgba(22, 22, 22, 0.7) 45%, #161616 100%); }
+
+/*# sourceMappingURL=main.css.map */
