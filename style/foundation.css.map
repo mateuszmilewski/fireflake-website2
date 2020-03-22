@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AASI,OAAO,CAAC,kEAAI;AAThB,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,GAAG;EACZ,MAAM,EAAE,GAAG;CAEd;;AAGD,AAAA,IAAI,CAAC;EAGD,WAAW,EAAE,oBAAoB;EAEjC,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "foundation.scss"
+    ],
+    "names": [],
+    "file": "foundation.css"
+}
