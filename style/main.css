@@ -1,27 +1,66 @@
 @use 'foundation';
-.header {
-  min-width: 100vh;
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.wrapper .header {
+  min-width: 100vw;
   min-height: 100vh;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(22, 22, 22, 0.3)), color-stop(40%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../img/head.jpg");
   background-image: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0, rgba(22, 22, 22, 0.7) 40%, #161616 100%), url("../img/head.jpg");
+  margin: 0 auto;
 }
 
-.header .logo {
+.wrapper .header .logo {
   margin: 0px;
   padding: 10px;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
 }
 
-.body {
+.wrapper .header .logo div {
+  font-size: 3rem;
+}
+
+.wrapper .header .menu ul {
+  list-style-type: none;
+}
+
+.wrapper .header .menu ul li {
+  float: left;
+}
+
+.wrapper .header .menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.wrapper .body {
+  min-width: 100vw;
   min-height: 100vh;
   background: black;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(22, 22, 22, 0.3)), color-stop(45%, rgba(22, 22, 22, 0.7)), to(#161616));
   background: linear-gradient(0deg, rgba(22, 22, 22, 0.3) 0, rgba(22, 22, 22, 0.7) 45%, #161616 100%);
 }
 
-.footer {
+.wrapper .footer {
+  min-width: 100vw;
   min-height: 100vh;
   background: black;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(22, 22, 22, 0.3)), color-stop(45%, rgba(22, 22, 22, 0.7)), to(#161616));
   background: linear-gradient(180deg, rgba(22, 22, 22, 0.3) 0, rgba(22, 22, 22, 0.7) 45%, #161616 100%);
+}
+
+.wrapper .footer ul {
+  list-style-type: none;
+}
+
+.wrapper .footer ul li div {
+  text-decoration: none;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */

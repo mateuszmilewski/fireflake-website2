@@ -2,39 +2,81 @@
 
 
 
-.header {
-    min-width: 100vh;
-    min-height: 100vh;
-    background-image: linear-gradient(to bottom, 
-        rgba(22,22,22,.3) 0, 
-        rgba(22,22,22,.7) 40%, 
-        #161616 100%), 
-        url("../img/head.jpg");
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
 
 
-    .logo {
-        margin: 0px;
-        padding: 10px;
+    .header {
+        min-width: 100vw;
+        min-height: 100vh;
+        background-image: linear-gradient(to bottom, 
+            rgba(22,22,22,.3) 0, 
+            rgba(22,22,22,.7) 40%, 
+            #161616 100%), 
+            url("../img/head.jpg");
+
+            margin: 0 auto;
+
+
+        .logo {
+            margin: 0px;
+            padding: 10px;
+            flex-basis: 100%;
+
+            div {
+                font-size: 3rem;
+            }
+        }
+
+        .menu {
+            ul {
+                list-style-type: none;
+
+                li {
+                    float: left;
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+        
     }
-    
-}
 
 
-.body {
-    min-height: 100vh;
-    background: black;
-    background: linear-gradient(0deg, 
-        rgba(22,22,22,.3) 0, 
-        rgba(22,22,22,.7) 45%, 
-        #161616 100%);
-}
+    .body {
+        min-width: 100vw;
+        min-height: 100vh;
+        background: black;
+        background: linear-gradient(0deg, 
+            rgba(22,22,22,.3) 0, 
+            rgba(22,22,22,.7) 45%, 
+            #161616 100%);
+    }
 
 
-.footer {
-    min-height: 100vh;
-    background: black;
-    background: linear-gradient(180deg, 
-        rgba(22,22,22,.3) 0, 
-        rgba(22,22,22,.7) 45%, 
-        #161616 100%);
+    .footer {
+        min-width: 100vw;
+        min-height: 100vh;
+        background: black;
+        background: linear-gradient(180deg, 
+            rgba(22,22,22,.3) 0, 
+            rgba(22,22,22,.7) 45%, 
+            #161616 100%);
+
+
+        ul {
+
+            list-style-type: none;
+
+            li {
+                div {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
 }
